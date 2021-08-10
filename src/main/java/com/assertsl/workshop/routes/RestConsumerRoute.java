@@ -53,7 +53,6 @@ public class RestConsumerRoute extends RouteBuilder {
                 .responseMessage().code(200).message("operation executed successfully").endResponseMessage()
                 .to("direct:downloadPdf");
 
-
     }
 
 }
